@@ -244,6 +244,10 @@ p {
   top: -77px;
 }
 
+.hero-img {
+  width: 100%;
+}
+
 .company {
   padding: 75px 0 0;
 }
