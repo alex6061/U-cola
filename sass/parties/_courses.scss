@@ -1,0 +1,207 @@
+.courses {
+    background-color:  #e4f5eb;
+    padding: 78px 0 106px;
+}
+
+.section__title {
+енщfont-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 74px;
+
+
+color: #242323;
+
+margin-bottom: 120px;
+}
+
+
+.courses-box {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+
+    margin-bottom: 100px;
+}
+
+.courses-box__item {
+    margin: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.courses-box__item:nth-child(2) {
+    position: relative;
+    top: -40px;
+}
+
+.courses-box__item:nth-child(5) {
+    position: relative;
+    top: -40px;
+}
+
+
+.courses-box__item__img {
+    width: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    
+    grid-row-gap: 20px;
+
+    .card-grid__item:first-child {
+        display: flex;
+        gap: 10px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 15px;
+
+        color: #575859;
+
+        
+    }
+    .card-grid__item:nth-child(2) {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+        text-align: center;
+
+        color: #575859;
+
+    }
+
+
+    .card-grid__item:nth-child(3) {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .card-grid__item:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 15px;
+
+        color: #4C68FF;
+
+
+    }
+}
+
+.box__wrapper {
+    padding: 40px 30px;
+}
+
+.courses-box__item__title {
+
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+
+
+color: #242323;
+
+margin-bottom: 36px;
+
+}
+
+.little__img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.name-box__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;        
+    
+    color: #242323;
+    
+}
+
+.name-box__prof {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px; 
+    
+    text-decoration: underline;
+    
+    color: #45b871;
+}    
+
+
+.dollars {
+    color: #4C68FF;
+}
+
+
+.man::after{
+background: url(./../../src/img/courses/card4_man_1x.png);
+position: absolute;
+width: 100px;
+height: 100px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+   
+.courses__buton {
+    margin: 0 auto;
+    background-color: $button-color;
+    padding: 33px 44px;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+
+
+    color: #FFFFFF;
+
+    box-shadow: 0px 10px 80px rgba(9, 188, 77, 0.25);
+    border-radius: 5px;
+
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: #242323;
+        transition: 250ms;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+}
+    
+
+
+
+
+
+

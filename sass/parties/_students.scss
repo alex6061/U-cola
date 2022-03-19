@@ -1,0 +1,187 @@
+
+.students {
+    padding: 150px 0;
+}
+
+.students__title {
+    text-align: center;
+
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 74px;
+
+
+color: #424232;
+
+    margin-bottom: 50px;
+
+}
+
+.students-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 77px;
+    
+}
+
+.students-grid__item {
+    // margin: 15px;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+    box-shadow: 30px 30px 70px rgba(99, 98, 98, 0.06);  
+    border-radius: 15px;
+}
+
+.students-grid__item:first-child{
+    padding: 81px 52px;
+}
+
+.students-grid__item:last-child {
+border: none;
+}
+
+
+
+.students__green-border {
+    width: 142px;
+    height: 142px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    &::before {
+        background-image: url(./../../src/img/students/friendly-smiling-woman-looking-pleased-front_176420-20779.png);
+        width: 138px;
+        height: 138px;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: ' ';
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+}
+
+
+
+.students-grid__item__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+
+
+    color: #8C8E90;
+
+    margin-bottom: 30px;    
+}
+
+.students-grid__item__title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 10px;
+
+
+    color: #242323;
+
+    margin-bottom: 32px;
+}
+
+.students-grid__item__info {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1px;
+
+    color: #636262;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+
+.wrapper__item {
+    padding: 38px 44px;
+    border: 1px solid rgba(231, 231, 231, 0.7);
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+
+.wrapper__item__green-border {
+    width: 88px;
+    height: 88px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    &::before {
+        background-image: url(./../../src/img/students/Mask1.png);
+        width: 84px;
+        height: 84px;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: ' ';
+        position: absolute;
+        border-radius: 50%;
+    }
+
+}
+
+.wrapper__item__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #8C8E90;
+
+    margin-bottom: 50px;
+}
+
+.wrapper__item__title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 19.2821px;
+    line-height: 6px;
+    
+    color: #242323;
+
+    margin-bottom: 19px;
+}
+
+.wrapper__item__info {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12.8548px;
+    line-height: 1px;
+        
+    color: #636262;
+}
+
+
+   
+
+.wrapper__item__green-border__new{
+    width: 88px;
+    height: 88px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    &::before {
+        background-image: url(./../../src/img/students/Mask_Group.png);
+        width: 84px;
+        height: 84px;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        content: ' ';
+        border-radius: 50%; 
+    }
+}
+
